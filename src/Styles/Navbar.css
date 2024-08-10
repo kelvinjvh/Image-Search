@@ -1,0 +1,44 @@
+:root {
+  --color-orange: rgb(255, 101, 40);
+}
+.navbar {
+  color: #fff;
+  box-shadow: 0 0 5px rgb(34, 47, 63);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  align-items: center;
+  padding: 0.5em;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(26, 36, 48);
+}
+.navbar__logo {
+  color: var(--color-orange);
+  margin: 0 0 1em;
+  width: 200px;
+  cursor: pointer;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+.form {
+  width: 500px;
+  max-width: 100%;
+}
+.form__input {
+  border-radius: 3px 0 0 3px;
+  padding: 0.7em 2em;
+  width: 50%;
+  text-align: center;
+}
+.form__button {
+  border-radius: 0 3px 3px 0;
+  background-color: var(--color-orange);
+  color: #fff;
+  padding: 0.7em 1.3em;
+  cursor: pointer;
+}
